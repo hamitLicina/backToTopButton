@@ -10,6 +10,12 @@ body {
   font-size: 1.5rem;
 }
 
+.text-container {
+  width: 100rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
 .backToTop {
   display: none; /*To hide the button initially*/
   height: 50px;
