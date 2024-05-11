@@ -28,6 +28,62 @@
       including reasonable limitation of working hours and periodic holidays
       with pay.
     </div>
+
+    <div style="height: 2000px; border: 1px solid black" class="boxer" >
+      
+      <h1 margin-bottom="20px" >Top of the page</h1>
+
+      <div>
+        Everyone has the right to freedom of thought, conscience and religion;
+        this right includes freedom to change his religion or belief, and
+        freedom, either alone or in community with others and in public or
+        private, to manifest his religion or belief in teaching, practice,
+        worship and observance. Everyone has the right to freedom of opinion and
+        expression; this right includes freedom to hold opinions without
+        interference and to seek, receive and impart information and ideas
+        through any media and regardless of frontiers. Everyone has the right to
+        rest and leisure, including reasonable limitation of working hours and
+        periodic holidays with pay.
+      </div>
+    </div>
+
+
+    <div style="height: 1000px; border: 1px solid black" class="b" >
+      
+      <h2 margin="20px" >Top of the page</h2>
+
+      <div>
+        Everyone has the right to freedom of thought, conscience and religion;
+        this right includes freedom to change his religion or belief, and
+        freedom, either alone or in community with others and in public or
+        private, to manifest his religion or belief in teaching, practice,
+        worship and observance. Everyone has the right to freedom of opinion and
+        expression; this right includes freedom to hold opinions without
+        interference and to seek, receive and impart information and ideas
+        through any media and regardless of frontiers. Everyone has the right to
+        rest and leisure, including reasonable limitation of working hours and
+        periodic holidays with pay.
+      </div>
+    </div>
+
+    <div style="height: 1000px; border: 1px solid black" class="bo" >
+      
+      <p margin="20px" >Top of the page</p>
+
+      <div>
+        Everyone has the right to freedom of thought, conscience and religion;
+        this right includes freedom to change his religion or belief, and
+        freedom, either alone or in community with others and in public or
+        private, to manifest his religion or belief in teaching, practice,
+        worship and observance. Everyone has the right to freedom of opinion and
+        expression; this right includes freedom to hold opinions without
+        interference and to seek, receive and impart information and ideas
+        through any media and regardless of frontiers. Everyone has the right to
+        rest and leisure, including reasonable limitation of working hours and
+        periodic holidays with pay.
+      </div>
+    </div>
+
     <button class="button" onclick="showAlert()">Click Me!</button>
     <script>
       function showAlert() {
@@ -37,7 +93,7 @@
     <button class="backToTop">
       <span>&#11165;</span>
     </button>
-    <button id="myButton">Click Me!</button>
+    <button class="button" id="myButton">Click Me!</button>
     <script>
       const myButton = document.getElementById("myButton");
       myButton.addEventListener("click", function () {
@@ -45,15 +101,17 @@
       });
     </script>
     <div id="buttonContainer">
-      <button>Button 1</button>
-      <button>Button 2</button>
+      <button class="button">Button 1</button>
+      <button class="button">Button 2</button>
     </div>
     <script>
-      document.getElementById('buttonContainer').addEventListener('click', function(e) {
-        if (e.target.tagName === 'BUTTON') {
-          alert('Button clicked: ' + e.target.textContent);
-        }
-      });
+      document
+        .getElementById("buttonContainer")
+        .addEventListener("click", function (e) {
+          if (e.target.tagName === "BUTTON") {
+            alert("Button clicked: " + e.target.textContent);
+          }
+        });
     </script>
     <script src="script.js"></script>
   </body>

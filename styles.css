@@ -43,4 +43,27 @@ body {
 
 .box {
   background-color: gray;
+  background: linear-gradient(
+    62deg,
+    rgb(21, 213, 235) 0%,
+    rgb(255, 0, 191) 100%
+  );
+}
+
+.button {
+  display: block;
+  margin: 5px;
+  padding: 10px;
+}
+
+.boxer {
+  background: linear-gradient(132deg, rgb(255, 0, 0) 0%, rgb(255, 213, 0) 100%);
+}
+
+.b {
+  background: linear-gradient(132deg, rgb(2, 108, 223) 0.00%, rgb(0, 246, 253) 100.00%);
+}
+
+.bo {
+  background: linear-gradient(292deg, rgb(39, 43, 44) 24.46%, rgb(241, 60, 43) 100.00%);
 }
